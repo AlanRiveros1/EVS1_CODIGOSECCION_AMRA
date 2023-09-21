@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def vistaUno(request):
     return HttpResponse("<h1>Hola Mundo app1</h1>")
+
+def vistaTres(request):
+    return HttpResponse("<h1>Hola MUndo v3</h1>")
